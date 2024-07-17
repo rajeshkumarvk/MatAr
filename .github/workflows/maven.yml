@@ -11,9 +11,7 @@ name: MatAr
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+ 
 jobs:
   build:
 
@@ -26,7 +24,7 @@ jobs:
       with:
         java-version: '19'
         distribution: 'adopt'
-        cache: maven
+      
     - name: Build with Maven
       run: mvn test
 
