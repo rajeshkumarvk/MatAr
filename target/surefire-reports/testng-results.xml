@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T16:03:43 IST" name="Suite" finished-at="2024-07-17T16:04:02 IST" duration-ms="18108">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T16:03:43 IST" name="TestScripts03" finished-at="2024-07-17T16:04:02 IST" duration-ms="18108">
+      <class name="Aera.TestScripts03">
+        <test-method signature="testscripts()[pri:0, instance:Aera.TestScripts03@3a12c404]" started-at="2024-07-17T16:03:44 IST" name="testscripts" finished-at="2024-07-17T16:04:02 IST" duration-ms="18057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscripts -->
+      </class> <!-- Aera.TestScripts03 -->
+    </test> <!-- TestScripts03 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -39,5 +39,9 @@
 "EAAPP_PASSWORD":"password",
 "EAAPP_SUBMIT":"//input[@type='submit']",
 "EAAPP_TEXT":"//*[contains(text(),'EA Employee App v2.0')]",
+"EAAPP_MANAGE_USERS_XPATH":"//a[contains(text(),'Manage Users')]",
+"EAAPP_MANAGE_USERS_SELECT_BOX":"//table[@class='table']/tbody/tr[3]/td[3]",
+"EAAPP_MANAGE_USERS_SELECTION":"//table[@class='table']/tbody/tr[3]/td[3]/select[@id='RoleName']/option[3]",
+"EAAPP_MANAGE_USERS_ASSIGN":"//table[@class='table']/tbody/tr[3]/td[4]"
 "EAAPP_LOGOUT":"//a[contains(text(), 'Log off')]"
 }

@@ -1,19 +1,11 @@
 package oopsInterface;
 
-public interface USMedical extends WHO{
+public interface USMedical {
 	
-	int min_fee =100;
+	public void NineNineoneServices();
 	
-	public void NeuroService();
+	public void NeuroServices();
 	
-	public void NineoneoneService();
-	
-	public void PhysioService();
-	
-	public static void bloodbank() {
-		
-		System.out.println("US ----bloodbank");
-		
-	}
+	public void GyancelogyServices();
 
 }

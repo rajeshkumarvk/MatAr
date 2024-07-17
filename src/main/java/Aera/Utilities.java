@@ -17,15 +17,18 @@ public class Utilities {
 	
 	String filepath = "./test.json.txt"; 
 	
-	WebDriver driver;
+	//WebDriver driver;
 	
 	
 	
-	public Utilities() {
 	
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-	}
+	/*
+	 * public Utilities() {
+	 * 
+	 * WebDriverManager.chromedriver().setup();
+	 * 
+	 * driver = new ChromeDriver(); }
+	 */
 	
 	public JSONObject readjson(String path) throws IOException, ParseException {
 		
